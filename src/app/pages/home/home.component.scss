@@ -1,0 +1,51 @@
+.prodDivGeneral{  
+    display: flex;
+    width: calc(100vw - 200px);
+    margin-left: 200px;
+    height: 100vh;
+
+    .prodDivGeneral-Breadcrumb{
+        text-decoration: blink;
+        display: flex;
+        list-style: none;
+        position: absolute;
+        left: 250px !important;
+        margin-top: 30px;
+        font-family: Prosto One;
+        
+            &:hover{
+                cursor: pointer;
+                a{
+                    color: #FF414D;;
+                }
+            }
+        }
+
+    .prodDivGeneral-img{
+        display:flex;
+        align-items: center;
+        margin-left: 150px;
+
+        &_Error{
+            margin-top: 150px;
+            float: right;
+            width: 700px;
+            height: 700px;
+            box-sizing: border-box;
+        }
+        
+    }
+
+    .prodDivGeneral-text{
+        font-family: Prosto One;
+        font-style: normal;
+        font-weight: bold;
+        font-size: smaller;
+        margin: 3em;
+        padding: 3em;
+        color: #72828A;
+        margin-right: 27px;
+        margin-top: 200px;
+
+    }
+}
